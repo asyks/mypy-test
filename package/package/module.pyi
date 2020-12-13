@@ -1,9 +1,10 @@
 from typing import Dict, List
 
-class _Klass:
+class Klass:
     a: int
     b: str 
     c: List
     d: Dict
 
-Klass: _Klass
+    def __init__(self) -> None:
+        ...

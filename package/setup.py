@@ -12,7 +12,7 @@ setup(
     description='fake package for testing mypy stub file types.',
     packages=find_packages(),
     package_data={
-        PKG: ["*.pyi"]
+        PKG: ["py.typed", "*.pyi"]
     },
     include_package_data=True,
 )
