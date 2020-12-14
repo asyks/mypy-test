@@ -1,3 +1,3 @@
 class Klass:
-    def __init__(self) -> None:
+    def __init__(self):
         super().__init__()
