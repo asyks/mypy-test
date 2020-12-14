@@ -2,7 +2,11 @@
 
 Sandbox for testing mypy. Specifically, mypy linting of external packages.
 
-## Sandboxing
+This project relies on:
+  - stub files from [PEP484](https://www.python.org/dev/peps/pep-0484/#id44)
+  - packaging type information from [PEP561](https://www.python.org/dev/peps/pep-0561/#packaging-type-information)
+
+## Using/Testing
 
 ### Building `package`
 
